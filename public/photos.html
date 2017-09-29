@@ -3,35 +3,51 @@
 <head>
   <meta charset="utf-8">
   <title>Raghu Betina - Photos</title>
+
+  <!-- Connect to our own additional CSS -->
+  <link rel="stylesheet" href="our_styles.css">
+
+  <!-- Connect to Google Web Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic|Playfair+Display:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-  <a href="/">
-    Home
-  </a>
+  <div class="page-header">
+    <h1>
+      Raghu Betina
+    </h1>
 
-  |
+    <a href="/">
+      Home
+    </a>
 
-  <a href="/photos.html">
-    Photos
-  </a>
+    |
 
-  |
+    <a href="/photos.html">
+      Photos
+    </a>
 
-  <a href="/misc.html">
-    Miscellaneous
-  </a>
+    |
 
-  <h1>
-    Raghu Betina
-  </h1>
+    <a href="/misc.html">
+      Miscellaneous
+    </a>
+  </div>
 
-  <h2>Some photos</h2>
+  <div class="main-container">
+    <h2>Some photos</h2>
 
-  <img src="/images/raghu-b-1.jpg" height="300">
+    <div class="card">
+      <img src="/images/raghu-b-1.jpg" class="photo">
+    </div>
 
-  <img src="/images/raghu-b-2.jpg" height="300">
+    <div class="card">
+      <img src="/images/raghu-b-2.jpg" class="photo">
+    </div>
 
-  <img src="/images/raghu-b-3.jpg" height="300">
+    <div class="card">
+      <img src="/images/raghu-b-3.jpg" class="photo">
+    </div>
+  </div>
 </body>
 </html>
